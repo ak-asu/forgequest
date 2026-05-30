@@ -6,6 +6,14 @@ A math aptitude quiz game embedded directly in Confluence, built on the Atlassia
 ![Runtime](https://img.shields.io/badge/runtime-Node.js%2022.x-green.svg)
 ![Platform](https://img.shields.io/badge/platform-Atlassian%20Forge-0052CC.svg)
 
+## Preview / Demo
+
+| Quiz in progress | Results screen |
+|:---:|:---:|
+| ![Active quiz with countdown timer and arithmetic equation](assets/gameplay-quiz.png) | ![End-of-game results showing score and best record](assets/gameplay-result.png) |
+
+**Submission:** [Devpost — Aptitude](https://devpost.com/software/aptitude-slb37n)
+
 ## Overview
 
 ForgeQuest is a Confluence Space Page app that challenges users with progressively harder arithmetic equations under a countdown timer. It runs entirely inside Confluence via Atlassian Forge — no external server, no separate deployment, no iframe embedding. Players solve equations to survive as long as possible while the difficulty and complexity increase with each correct answer. Best scores persist across sessions using Forge's built-in key-value storage.
